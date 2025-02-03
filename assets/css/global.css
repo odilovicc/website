@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #13293D;
+    --secondary-color: #2a628f;
+    --contrast-color: #16324F;
+    --white-color: #E2FDFF;
+    --invalid: red;
+    --p-select-option-selected-background: var(--primary-color) !important;
+    --p-select-option-selected-focus-background: var(--primary-color) !important;
+    --p-select-option-selected-focus-color: #fff !important;
+}
