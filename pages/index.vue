@@ -10,7 +10,7 @@
       <img src="/images/avaa.png"/>
       <h1>Hello. My name is <span class="dashboard-title-name">Bakhtiyor</span> and I am</h1>
       <div class="dashboard-typing">
-        <h1 id="element"/>
+        <h1 id="element" ref="typingElement"/>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
 import type { Container } from '@tsparticles/engine'
 
 const typed = useTypedJs()
-
+const typingElement = ref()
 
 const options = {
   background: {
@@ -108,6 +108,11 @@ onMounted(() => {
     backSpeed: 150,
     loop: true,
   })
+  console.log(typingElement.value)
+})
+
+useHead({
+  title: `Baxti | Website`
 })
 </script>
 
