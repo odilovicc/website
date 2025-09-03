@@ -62,7 +62,7 @@
                 class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 rounded-full font-semibold text-base transition-colors">
                 Request portfolio
               </a>
-              <a href="/cv_baxtiyor.pdf" download
+              <a href="/Resume.pdf" download
                 class="bg-gray-800 hover:bg-gray-700 text-indigo-300 px-6 py-2 rounded-full font-semibold text-base border border-indigo-500 transition-colors">
                 Download CV
               </a>
@@ -76,7 +76,7 @@
               <AppIcon icon="user" class="w-5 h-5 text-indigo-400" /> About Me
             </h3>
             <p class="text-gray-300 mb-2">
-              Frontend developer with 3+ years of commercial experience. I specialize in building responsive and productive web apps using Vue/Nuxt, TypeScript, and SCSS. Clean modular code, CI/CD, REST API, SSR, VPS deploy.
+              Frontend developer with 2+ years of commercial experience. I specialize in building responsive and productive web apps using Vue/Nuxt, TypeScript, and SCSS. Clean modular code, CI/CD, REST API, SSR, VPS deploy.
             </p>
             <div class="flex flex-wrap gap-2 text-sm text-gray-400">
               <span>Russian (native)</span>
@@ -137,7 +137,7 @@
         <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">Experience</h2>
         <div class="max-w-3xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
           <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Software Engineer</h3>
-          <p class="text-gray-400 mb-4">2023 - Present | 3 Years and 10 month</p>
+          <p class="text-gray-400 mb-4">2023 - Present | 2 Years and 2 month</p>
           <p class="text-gray-300">
             I craft high-performance web apps with <span class="text-indigo-400">Vue</span>, <span
               class="text-indigo-400">Nuxt</span>, and <span class="text-indigo-400">TypeScript</span>.
