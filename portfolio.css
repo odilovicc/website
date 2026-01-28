@@ -1,0 +1,35 @@
+:root {
+  color-scheme: dark;
+}
+
+/* Section reveal animation */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Typing cursor animation */
+#element {
+  border-right: 2px solid #6366f1;
+  padding-right: 0.5rem;
+}
+
+.typing-cursor {
+  animation: cursorPulse 1s infinite;
+}
+
+@keyframes cursorPulse {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #6366f1;
+  }
+}
